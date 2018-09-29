@@ -3,10 +3,8 @@ import setuptools
 
 LONG_DESCRIPTION = """Django URL params
 
-This library contains code to expose some monitoring metrics relevant
-to Django internals so they can be monitored by Prometheus.io.
-See https://github.com/korfuri/django-prometheus for usage
-instructions.
+This library contains code to keep parameters in django URL 
+during Django redirections.
 """
 
 
