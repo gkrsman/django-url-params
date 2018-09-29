@@ -8,16 +8,16 @@ logger = logging.getLogger(__name__)
 
 
 try:
-    PP = settings.PARAMS_URL_CONF
+    PARAMS_URL_CONF = settings.URL_PARAMS_CONF
 except AttributeError:
-    msg = 'Django URL params! PARAMS_URL_CONF is missing using default URL_CONF.'
+    msg = 'Django URL params: URL_PARAMS_CONF is missing. Using ROOT_URLCONF.'
     logger.info(msg)
-    PP = settings.ROOT_URLCONF
+    PARAMS_URL_CONF = settings.ROOT_URLCONF
 
 
 def param_redirect(request, viewname, *args):
     """ Redirect and keep URL parameters if any. """
-    url = reverse(viewname, PP, args)
+    url = reverse(viewname, PARAMS_URL_CONF, args)
     params = request.GET.urlencode().split('&')
 
     if hasattr(request, 'cparam'):
