@@ -21,7 +21,9 @@ setuptools.setup(
     packages=setuptools.find_packages(),
     keywords=['django', 'url', 'redirect', 'django-url-params'],
     classifiers=[
+        "Environment :: Web Environment",
         "Framework :: Django",
+        "Intended Audience :: Developers",
         "Programming Language :: Python :: 2.7",
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",

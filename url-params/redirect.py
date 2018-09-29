@@ -2,7 +2,6 @@ import logging
 from django.conf import settings
 from django.urls.base import reverse
 from django.http import HttpResponseRedirect
-from django.core.exceptions import ImproperlyConfigured
 
 
 logger = logging.getLogger(__name__)
