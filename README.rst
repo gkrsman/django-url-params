@@ -1,7 +1,7 @@
 Django URL params
 =================
 
-Django-url-params is a reusable Django application allowing users to keep
+Django-url-params is a reusable Django module allowing users to keep
 URL parameters during redirection. It can be used for UTM parameters https://en.wikipedia.org/wiki/UTM_parameters or any other URL parameter. Especially when you need to use django redirect.
 
 
@@ -44,7 +44,17 @@ Usage is very simple:
         return param_redirect(request, 'view_name')
 
 
-With django-url-params it's also possible to add parameter to your URL easily.
+If your reverse url require arguments, just add it on the usual way:
+
+
+.. code-block:: python
+
+    def my_view(request):
+        # do something ...
+    return param_redirect(request, 'view_name', arg1, arg2)
+
+
+With django-url-params it's also possible to add your parameter to the URL easily.
 
 .. code-block:: python
 
