@@ -7,8 +7,6 @@ MANIFEST
 build
 dist/
 django_url_params.egg_info/
-
-# IDE
 .idea/
 
 # virtualenv
