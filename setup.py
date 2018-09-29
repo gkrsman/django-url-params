@@ -9,8 +9,8 @@ during Django redirections.
 
 
 setuptools.setup(
-    name="django-url-params",
-    version="1.0.1",
+    name="django_url_params",
+    version="1.0.2",
     author="Goran Krsman",
     author_email="goran@klikoglasi.com",
     description="Keep URL parameters in Django redirect.",
