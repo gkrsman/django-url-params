@@ -9,7 +9,7 @@ during Django redirections.
 
 
 setuptools.setup(
-    name="django-urlparams",
+    name="django-url-params",
     version="1.0.1",
     author="Goran Krsman",
     author_email="goran@klikoglasi.com",
@@ -17,9 +17,9 @@ setuptools.setup(
     long_description=LONG_DESCRIPTION,
     long_description_content_type="text/markdown",
     license="MIT",
-    url="https://github.com/gkrsman/django-urlparams",
+    url="https://github.com/gkrsman/django-url-params",
     packages=setuptools.find_packages(),
-    keywords=['django', 'url', 'redirect', 'django-urlparams'],
+    keywords=['django', 'url', 'redirect', 'django-url-params'],
     classifiers=[
         "Environment :: Web Environment",
         "Framework :: Django",
