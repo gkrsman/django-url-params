@@ -6,10 +6,9 @@ __pycache__
 MANIFEST
 build
 dist
-fcm_django.egg-info
 
 # IDE
-.idea
+.idea/
 *.iml
 *.xml
 
