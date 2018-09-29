@@ -51,7 +51,7 @@ If your reverse url require arguments, just add it on the usual way:
 
     def my_view(request):
         # do something ...
-    return param_redirect(request, 'view_name', arg1, arg2)
+        return param_redirect(request, 'view_name', arg1, arg2)
 
 
 With django-url-params it's also possible to add your parameter to the URL easily.
