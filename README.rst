@@ -33,10 +33,8 @@ Then add ``'urlparams'`` to your ``INSTALLED_APPS``.
 Usage
 -----
 
-Django-url-params can be used for generating interfaces similar to the Django
-admin's ``list_filter`` interface.  It has an API very similar to Django's
-``ModelForms``.  For example, if you had a Product model you could have a
-filterset for it with the code:
+Django-url-params can be used to keep UTM values in your URL's or any other parameter in your URL's.
+Especialy when you need to use django redirect. It is very simple:
 
 .. code-block:: python
 
