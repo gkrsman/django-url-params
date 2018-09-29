@@ -9,8 +9,6 @@ dist
 
 # IDE
 .idea/
-*.iml
-*.xml
 
 # virtualenv
 .env
